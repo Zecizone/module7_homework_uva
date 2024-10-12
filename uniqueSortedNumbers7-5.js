@@ -1,3 +1,5 @@
+// Задание 7.7.5
+
 function uniqueSortedNumbers(arr) {
     const uniqueNumbers = Array.from(new Set(arr));
     return uniqueNumbers.sort((a, b) => a - b);
@@ -7,5 +9,3 @@ function uniqueSortedNumbers(arr) {
   const uniqueSorted = uniqueSortedNumbers(numbers);
   
   console.log(uniqueSorted);
-
-  
